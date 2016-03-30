@@ -151,3 +151,17 @@ Simply override the default styles or turn them off (`styles={false}`)
 and use the class name hooks for add the styling.
 
 ![style](./screenshot/style.png "style")
+
+```
+import ModalView from 'react-header-modal';
+
+<ModalView 
+  hideOnOverlayClicked
+  title="Hi, xxx modal"
+  body="Simple Text"
+  isVisible={true}
+/>
+```
+
+You can show the modal visible when page has loaded, e.g. to show a 
+notice or whatever.

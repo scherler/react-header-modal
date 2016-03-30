@@ -180,8 +180,8 @@ ModalView.defaultProps = {
 };
 
 export {
-  ModalView as default,
-  Header,
   Body,
   defaultStyles,
+  ModalView as default,
+  Header,
 };
