@@ -14,6 +14,12 @@ Installation
 npm i --save react-header-modal
 ```
 
+License
+-------
+
+License is [MIT](./LICENSE)
+
+
 Features
 --------
 
