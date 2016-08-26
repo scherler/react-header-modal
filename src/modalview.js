@@ -10,21 +10,10 @@ class ModalView extends Component {
     this.state = {isVisible: props.isVisible || false};
   }
 
-    componentWillMount() {
-        document.addEventListener("keydown", this._handleKeys, false);
-    }
+  componentWillMount() {
+    document.addEventListener('keydown', this._handleKeys, false);
+  }
 
-    componentWillUnmount() {
-        document.removeEventListener("keydown", this._handleKeys, false);
-    }
-
-    _handleKeys:Function = (event) => {
-        const { ignoreEscapeKey } = this.props;
-
-        if (!ignoreEscapeKey && event.keyCode == 27) {
-            this.hide();
-        }
-    }
 
   componentWillUpdate(nextProps, nextState) {
 
@@ -53,6 +42,17 @@ class ModalView extends Component {
       afterClose();
     }
   }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this._handleKeys, false);
+  }
+    _handleKeys:Function = (event) => {
+        const { ignoreEscapeKey } = this.props;
+
+        if (!ignoreEscapeKey && event.keyCode == 27) {
+            this.hide();
+        }
+    }
 
   show() {
     this.setState({isVisible: true});
@@ -166,27 +166,30 @@ class ModalView extends Component {
 
 ModalView.displayName = 'ModalView';
 
+const { bool, func, object, oneOfType, shape, string } = PropTypes;
+
 ModalView.propTypes = {
-  afterClose: PropTypes.func,
-  afterOpen: PropTypes.func,
-  beforeClose: PropTypes.func,
-  beforeOpen: PropTypes.func,
-  body: PropTypes.string,
-  children: PropTypes.object,
-  hideOnOverlayClicked: PropTypes.bool,
-  isVisible: PropTypes.bool,
-  onOverlayClicked: PropTypes.func,
-  showOverlay: PropTypes.bool,
-  styles: React.PropTypes.oneOfType([
-    PropTypes.shape({
-      closeButtonStyle: PropTypes.object,
-      dialogStyles: PropTypes.object,
-      overlayStyles: PropTypes.object,
-      titleStyle: PropTypes.object
+  afterClose: func,
+  afterOpen: func,
+  beforeClose: func,
+  beforeOpen: func,
+  body: string,
+  children: object,
+  hideOnOverlayClicked: bool,
+  ignoreEscapeKey: bool,
+  isVisible: bool,
+  onOverlayClicked: func,
+  showOverlay: bool,
+  styles: oneOfType([
+    shape({
+      closeButtonStyle: object,
+      dialogStyles: object,
+      overlayStyles: object,
+      titleStyle: object
     }),
-    PropTypes.bool,
+    bool,
   ]),
-  title: PropTypes.string,
+  title: string,
 
 };
 
