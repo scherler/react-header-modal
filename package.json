@@ -1,6 +1,6 @@
 {
   "name": "react-header-modal",
-  "version": "0.4.4",
+  "version": "0.4.11",
   "description": "A react component for modals and dialogs which allows you to have custom header and super easy overrides of default styles.",
   "main": "lib/modalview.js",
   "scripts": {
