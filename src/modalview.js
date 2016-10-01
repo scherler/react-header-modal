@@ -166,7 +166,7 @@ class ModalView extends Component {
 
 ModalView.displayName = 'ModalView';
 
-const { bool, func, object, oneOfType, shape, string } = PropTypes;
+const { bool, func, node, object, oneOfType, shape, string } = PropTypes;
 
 ModalView.propTypes = {
   afterClose: func,
