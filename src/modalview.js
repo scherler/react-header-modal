@@ -174,7 +174,7 @@ ModalView.propTypes = {
   beforeClose: func,
   beforeOpen: func,
   body: string,
-  children: object,
+  children: node,
   hideOnOverlayClicked: bool,
   ignoreEscapeKey: bool,
   isVisible: bool,
