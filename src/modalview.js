@@ -10,7 +10,7 @@ class ModalView extends Component {
     this.state = {isVisible: props.isVisible || false};
   }
 
-  componentWillMount() {
+  componentDidMount() {
     document.addEventListener('keydown', this._handleKeys, false);
   }
 
