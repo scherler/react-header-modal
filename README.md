@@ -171,3 +171,5 @@ import ModalView from 'react-header-modal';
 
 You can show the modal visible when page has loaded, e.g. to show a 
 notice or whatever.
+
+You can use the "ESC" key to close the modal view.
