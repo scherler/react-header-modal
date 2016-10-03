@@ -10,7 +10,7 @@ class ModalView extends Component {
     this.state = {isVisible: props.isVisible || false};
   }
 
-  componentWillMount() {
+  componentDidMount() {
     document.addEventListener('keydown', this._handleKeys, false);
   }
 
@@ -166,7 +166,7 @@ class ModalView extends Component {
 
 ModalView.displayName = 'ModalView';
 
-const { bool, func, object, oneOfType, shape, string } = PropTypes;
+const { bool, func, node, object, oneOfType, shape, string } = PropTypes;
 
 ModalView.propTypes = {
   afterClose: func,
@@ -174,7 +174,7 @@ ModalView.propTypes = {
   beforeClose: func,
   beforeOpen: func,
   body: string,
-  children: object,
+  children: node,
   hideOnOverlayClicked: bool,
   ignoreEscapeKey: bool,
   isVisible: bool,
