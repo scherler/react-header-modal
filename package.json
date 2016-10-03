@@ -24,7 +24,33 @@
     "modal",
     "dialog"
   ],
-  "author": "Thorstn Scherler",
+  "author": "Thorsten Scherler",
+  "contributors": [
+    {
+      "name": "Juho Vepsäläinen",
+      "email": "bebraw@gmail.com"
+    },
+    {
+      "name": "kalle",
+      "email": "kalle@loclet.com"
+    },
+    {
+      "name": "Marcio Gasparotto",
+      "email": "mgasparotto@gmail.com"
+    },
+    {
+      "name": "Michael McCaskill",
+      "email": "mmccaskill@cloudbees.com"
+    },
+    {
+      "name": "MIJOTHY",
+      "email": "james.griffiths.2222@googlemail.com"
+    },
+    {
+      "name": "Thorsten Scherler",
+      "email": "scherler@gmail.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
