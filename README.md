@@ -24,7 +24,7 @@ to use header and body.
 [devdependencies-image]: https://david-dm.org/scherler/react-header-modal/dev-status.png
 [devdependencies-url]: https://david-dm.org/scherler/react-header-modal#info=devDependencies
 
-[quality-badge]: http://npm.packagequality.com/badge/react-header-modal.svg
+[quality-badge]: http://npm.packagequality.com/shield/react-i18next.svg
 [quality-url]: http://packagequality.com/#?package=react-header-modal
 
 Installation
