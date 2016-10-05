@@ -14,8 +14,8 @@ to use header and body.
 [![dependencies][dependencies-image] ][dependencies-url]
 [![devdependencies][devdependencies-image] ][devdependencies-url]
 
-[npm-icon]: https://nodei.co/npm/react-i18next.png?downloads=true
-[npm-url]: https://npmjs.org/package/react-i18next
+[npm-icon]: https://nodei.co/npm/react-header-modal.png?downloads=true
+[npm-url]: https://npmjs.org/package/react-header-modal
 [travis-ci-image]: https://travis-ci.org/scherler/react-header-modal.svg?branch=master
 [travis-ci-url]: https://travis-ci.org/scherler/react-header-modal
 
