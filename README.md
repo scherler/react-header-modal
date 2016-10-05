@@ -6,6 +6,26 @@ Powerful, lightweight and customizable design.
 It is based on https://github.com/marcio/react-skylight but re-written 
 to use header and body.
 
+[![NPM][npm-icon] ][npm-url]
+
+[![Travis CI][travis-ci-image] ][travis-ci-url]
+[![Coverage Status](https://coveralls.io/repos/github/scherler/react-header-modal/badge.svg?branch=master)](https://coveralls.io/github/scherler/react-header-modal?branch=master)
+[![Quality][quality-badge] ][quality-url]
+[![dependencies][dependencies-image] ][dependencies-url]
+[![devdependencies][devdependencies-image] ][devdependencies-url]
+
+[npm-icon]: https://nodei.co/npm/react-i18next.png?downloads=true
+[npm-url]: https://npmjs.org/package/react-i18next
+[travis-ci-image]: https://travis-ci.org/scherler/react-header-modal.svg?branch=master
+[travis-ci-url]: https://travis-ci.org/scherler/react-header-modal
+
+[dependencies-image]: https://david-dm.org/scherler/react-header-modal.png
+[dependencies-url]: https://david-dm.org/scherler/react-header-modal
+[devdependencies-image]: https://david-dm.org/scherler/react-header-modal/dev-status.png
+[devdependencies-url]: https://david-dm.org/scherler/react-header-modal#info=devDependencies
+
+[quality-badge]: http://npm.packagequality.com/badge/react-header-modal.png
+[quality-url]: http://packagequality.com/#?package=react-header-modal
 
 Installation
 ------------
