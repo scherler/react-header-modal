@@ -55,7 +55,9 @@
     }
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.16.0",
